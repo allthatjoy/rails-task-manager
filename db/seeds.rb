@@ -7,5 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 puts 'creating seeds'
-tasks = Task.create([{ title: 'Laundry' }, { details: 'separate whites' }, {completed: false}])
+tasks = Task.create([{ title: 'Laundry', details: 'separate whites'}, { title: 'wash the dog', details: 'at the car wash' }])
 puts 'seeds created'
+
+
+# how do we make a change to the DB?  rails g migration ChangeCompleteInTask
+
+  # I want to make sure every task created comes as not completer?
+
+
+
+# lets fix these seeds!
+  # run rails c a and look
